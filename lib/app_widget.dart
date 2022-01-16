@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:taskez/modules/splash/splash_widget.dart';
+import 'package:taskez/modules/Onboarding/get_started/app_get_started.dart';
+import 'package:taskez/modules/Onboarding/splash/splash_widget.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({Key? key}) : super(key: key);
@@ -8,7 +9,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark(),
-      home: SplashWidget(),
+      home: AppGetStard(),
     );
   }
 }
