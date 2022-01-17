@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:taskez/Material/Component/BottomContinueWithEmail/app_bottom_conitnue_email.dart';
 import 'package:taskez/Material/app_img.dart';
 import 'package:taskez/modules/Onboarding/carousel/app_carousel.dart';
 
@@ -21,31 +22,7 @@ class _AppCarouselScreenState extends State<AppCarouselScreen> {
           body: Column(
             children: [
               CarouselImage(),
-              Container(
-                decoration: BoxDecoration(
-                    color: Colors.blue,
-                    borderRadius: BorderRadius.circular(40)),
-                child: TextButton(
-                  onPressed: () {},
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(
-                        Icons.email,
-                        size: 20,
-                        color: Colors.white,
-                      ),
-                      SizedBox(
-                        width: 5,
-                      ),
-                      Text(
-                        "Continue with Email",
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
+              AppBottomContinueEmail(),
               Container(
                 margin: EdgeInsets.only(top: size.height * 0.03),
                 width: size.width,

@@ -32,11 +32,15 @@ class CarouselImage extends StatelessWidget {
               ),
               Positioned(
                 bottom: 0,
-                child: Container(
-                  width: size.width * 0.8,
-                  child: Text(
-                    "Task, Calendar, Chat",
-                    style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    width: size.width * 0.8,
+                    child: Text(
+                      "Task, Calendar, Chat",
+                      style:
+                          TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
+                    ),
                   ),
                 ),
               )
@@ -56,11 +60,15 @@ class CarouselImage extends StatelessWidget {
               ),
               Positioned(
                 bottom: 0,
-                child: Container(
-                  width: size.width * 0.8,
-                  child: Text(
-                    "Work, Anywhere, Easily",
-                    style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    width: size.width * 0.8,
+                    child: Text(
+                      "Work, Anywhere, Easily",
+                      style:
+                          TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
+                    ),
                   ),
                 ),
               )
@@ -80,11 +88,15 @@ class CarouselImage extends StatelessWidget {
               ),
               Positioned(
                 bottom: 0,
-                child: Container(
-                  width: size.width * 0.8,
-                  child: Text(
-                    "Manage, Everything, on Phone",
-                    style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    width: size.width * 0.8,
+                    child: Text(
+                      "Manage, Everything, on Phone",
+                      style:
+                          TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
+                    ),
                   ),
                 ),
               )

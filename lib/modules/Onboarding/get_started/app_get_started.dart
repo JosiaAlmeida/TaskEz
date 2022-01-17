@@ -139,7 +139,8 @@ class AppGetStard extends StatelessWidget {
                           color: Colors.blue,
                           borderRadius: BorderRadius.circular(100)),
                       child: TextButton(
-                        onPressed: () {},
+                        onPressed: () => Navigator.pushNamedAndRemoveUntil(
+                            context, '/loginSwitch', (route) => false),
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
