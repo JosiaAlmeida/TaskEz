@@ -13,6 +13,7 @@ class AppCarouselScreen extends StatefulWidget {
 class _AppCarouselScreenState extends State<AppCarouselScreen> {
   @override
   Widget build(BuildContext context) {
+    void functionvoid() {}
     final size = MediaQuery.of(context).size;
     return Container(
         width: size.width,
@@ -22,7 +23,7 @@ class _AppCarouselScreenState extends State<AppCarouselScreen> {
           body: Column(
             children: [
               CarouselImage(),
-              AppBottomContinueEmail(),
+              AppBottomContinueEmail(router: "/emaillogin"),
               Container(
                 margin: EdgeInsets.only(top: size.height * 0.03),
                 width: size.width,
