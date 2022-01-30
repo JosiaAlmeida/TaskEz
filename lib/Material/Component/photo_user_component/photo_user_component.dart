@@ -10,6 +10,7 @@ class PhotoUserComponent extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Container(
           width: 40,
+          height: 40,
           decoration: BoxDecoration(
               color: Colors.white, borderRadius: BorderRadius.circular(1000)),
         ),

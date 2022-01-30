@@ -67,8 +67,8 @@ class AppGetStard extends StatelessWidget {
                     right: 0,
                     bottom: size.height * 0.8,
                     child: Container(
-                      width: size.width * 0.20,
-                      height: size.height * 0.10,
+                      width: size.width * 0.19,
+                      height: size.height * 0.11,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(100),
                           gradient: LinearGradient(
@@ -83,7 +83,7 @@ class AppGetStard extends StatelessWidget {
                     left: 0,
                     bottom: size.height * 0.6,
                     child: Container(
-                      width: size.width * 0.30,
+                      width: size.width * 0.25,
                       height: size.height * 0.15,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(100),
@@ -101,7 +101,7 @@ class AppGetStard extends StatelessWidget {
                     right: size.width * 0.3,
                     bottom: size.height * 0.4,
                     child: Container(
-                      width: size.width * 0.4,
+                      width: size.width * 0.32,
                       height: size.height * 0.2,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(100),

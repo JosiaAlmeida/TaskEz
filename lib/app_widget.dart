@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:taskez/controller/controller_provider.dart';
+import 'package:taskez/modules/Dashboard/app_profile_widget.dart';
 import 'package:taskez/modules/Onboarding/carousel/app_carousel_screen.dart';
 import 'package:taskez/modules/Onboarding/get_started/app_get_started.dart';
 import 'package:taskez/modules/Onboarding/splash/splash_widget.dart';
@@ -27,6 +28,7 @@ class AppWidget extends StatelessWidget {
             "/emaillogin": (_) => AppEmailWidget(),
             '/signup': (_) => AppSignUpWidget(),
             '/changeworkspace': (_) => ChangeWorkspace(),
+            '/dashboard': (_) => AppProfileWidget()
           }),
     );
   }

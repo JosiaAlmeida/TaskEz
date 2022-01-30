@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class PaletColor extends StatefulWidget {
-  PaletColor({Key? key}) : super(key: key);
+  Color color;
+  PaletColor({required this.color, Key? key}) : super(key: key);
 
   @override
   _PaletColorState createState() => _PaletColorState();
@@ -14,7 +15,7 @@ class _PaletColorState extends State<PaletColor> {
       onTap: () => print("Color picker"),
       child: Container(
         decoration: BoxDecoration(
-            color: Colors.red, borderRadius: BorderRadius.circular(100)),
+            color: widget.color, borderRadius: BorderRadius.circular(100)),
         width: 20,
         height: 20,
       ),

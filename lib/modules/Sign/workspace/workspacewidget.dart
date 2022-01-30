@@ -111,10 +111,18 @@ class _ChangeWorkspaceState extends State<ChangeWorkspace> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      PaletColor(),
-                      PaletColor(),
-                      PaletColor(),
-                      PaletColor(),
+                      PaletColor(
+                        color: Colors.blue,
+                      ),
+                      PaletColor(
+                        color: Colors.brown,
+                      ),
+                      PaletColor(
+                        color: Colors.yellow,
+                      ),
+                      PaletColor(
+                        color: Colors.amberAccent,
+                      ),
                     ],
                   ),
                 ),
@@ -123,10 +131,18 @@ class _ChangeWorkspaceState extends State<ChangeWorkspace> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      PaletColor(),
-                      PaletColor(),
-                      PaletColor(),
-                      PaletColor(),
+                      PaletColor(
+                        color: Colors.red,
+                      ),
+                      PaletColor(
+                        color: Colors.redAccent,
+                      ),
+                      PaletColor(
+                        color: Colors.cyan,
+                      ),
+                      PaletColor(
+                        color: Colors.deepOrange,
+                      ),
                     ],
                   ),
                 ),
@@ -135,10 +151,16 @@ class _ChangeWorkspaceState extends State<ChangeWorkspace> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      PaletColor(),
-                      PaletColor(),
-                      PaletColor(),
-                      PaletColor(),
+                      PaletColor(
+                        color: Colors.deepPurple,
+                      ),
+                      PaletColor(color: Colors.green),
+                      PaletColor(
+                        color: Colors.indigo,
+                      ),
+                      PaletColor(
+                        color: Colors.white,
+                      ),
                     ],
                   ),
                 ),
@@ -161,7 +183,8 @@ class _ChangeWorkspaceState extends State<ChangeWorkspace> {
                             color: Colors.blue.shade900,
                             borderRadius: BorderRadius.circular(100.0)),
                         child: TextButton(
-                          onPressed: () {},
+                          onPressed: () => Navigator.pushNamedAndRemoveUntil(
+                              context, "/dashboard", (route) => false),
                           child: Text(
                             "Next",
                             style: TextStyle(color: Colors.white),
